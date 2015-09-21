@@ -15,6 +15,6 @@ ciao = """Turmoil has engulfed the Galactic Republic. The\
  peace and justice in the galaxy, to settle the conflict"""
 
 ciaoo = ciao.split(' ')
-lungo= len(ciaoo)
+lungo = len(ciaoo)
 
 print(lungo)
