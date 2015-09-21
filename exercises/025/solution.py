@@ -5,5 +5,6 @@ Spyder Editor
 This is a temporary script file.
 """
 import datetime
-print("Today is ", datetime.date, " and it is ", datetime.time)
+data = datetime.datetime.today()
 
+print("Today is ", datetime.date.today(), " and it is ", data.strftime(%H:%M:%S))
