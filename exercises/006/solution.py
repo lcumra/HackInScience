@@ -7,4 +7,5 @@ This is a temporary script file.
 
 import sys
 
-sys.argv[0]
+ciao = sys.argv[0]
+print(ciao)
