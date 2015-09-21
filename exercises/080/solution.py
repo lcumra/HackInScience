@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Mon Sep 21 18:56:59 2015
 
-This is a temporary script file.
+@author: pippo
 """
 import itertools
-ciao = list(itertools.combinations('abcdefghijklmnopqrstuvwxyz', 2))
-lungo = len(ciao)
+ciao = itertools.combinations('abcdefghijklmnopqrstuvwxyz', 2)
 
-for i in range(0, lungo - 1):
-    print(ciao[i][0]+ciao[i][1])
+for i in ciao:
+    print(i[0] + i[1])
+    
