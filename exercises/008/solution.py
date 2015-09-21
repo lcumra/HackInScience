@@ -5,5 +5,5 @@ Spyder Editor
 This is a temporary script file.
 """
 
-for letter in 'Hello World!':
+for letter in 'Hello World !':
     print(letter)
