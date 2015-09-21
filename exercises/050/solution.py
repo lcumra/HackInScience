@@ -11,4 +11,4 @@ for i in range(1, 1000):
         b = b + i
     if i % 5 == 0:
         a = a + i
-print(a + b)        
+print(a + b)
