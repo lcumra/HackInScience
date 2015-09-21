@@ -4,9 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-import string
 import itertools
-#ciao = list(string.ascii_lowercase)
 ciao = list(itertools.combinations('abcdefghijklmnopqrstuvwxyz', 2))
 lungo = len(ciao)
 
