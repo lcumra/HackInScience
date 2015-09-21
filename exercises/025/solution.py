@@ -6,5 +6,7 @@ This is a temporary script file.
 """
 import datetime
 data = datetime.datetime.today()
+anno = data.strftime("%Y-%m-%d")
+ora = data.strftime("%H:%M:%S")
 
-print("Today is ", data.strftime("%Y-%m-%d"), " and it is ", data.strftime("%H:%M:%S"))
+print("Today is ", anno, " and it is ", ora)
