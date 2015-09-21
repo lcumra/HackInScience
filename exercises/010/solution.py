@@ -14,4 +14,7 @@ ciao = """Turmoil has engulfed the Galactic Republic. The\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
  peace and justice in the galaxy, to settle the conflict"""
 
-print(len(ciao)
+ciaoo = ciao.split(' ')
+lungo= len(ciaoo)
+
+print(lungo)
