@@ -7,4 +7,7 @@ This is a temporary script file.
 import datetime
 data = datetime.datetime.today()
 
-print("Today is ", datetime.date.today(), " and it is ", data.strftime(%H:%M:%S))
+#from time import gmtime, strftime
+ #strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
+
+print("Today is ", datetime.date.today(), " and it is ", data.strftime("%H:%M:%S"))
