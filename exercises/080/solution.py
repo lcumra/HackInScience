@@ -9,4 +9,3 @@ ciao = itertools.combinations('abcdefghijklmnopqrstuvwxyz', 2)
 
 for i in ciao:
     print(i[0] + i[1])
-    
