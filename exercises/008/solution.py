@@ -6,4 +6,4 @@ This is a temporary script file.
 """
 
 for letter in 'Hello World!':
-    print (letter)
+    print(letter)
