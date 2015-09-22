@@ -10,6 +10,8 @@ def starts_with(al, top):
     allist = list(al)
     toplist = list(top)
     x = True
+    if len(allist) < len(toplist):
+        return False
     for i in range(1, len(toplist)):
         if allist[i] not in toplist[i]:
             x = False
