@@ -32,4 +32,4 @@ if len(sys.argv) > 3:
         else:
             print('input error')
 else:
-    print('usage: ./solution.py a_number (an_operator +-*/%^) a_number')       
+    print('usage: ./solution.py a_number (an_operator +-*/%^) a_number')
