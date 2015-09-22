@@ -9,12 +9,11 @@ from operator import *
 
 def sort_a_list(lista):
     stampa = sorted(lista, reverse=True)
-    print(stampa)
-    return
+    return stampa
 
 
 def sort_by_mark(mycl):
-    print(sorted(mycl, key=itemgetter(1), reverse=True))
+    print(sorted(mycl, key=itemgetter(0), reverse=True))
     return
 
 
