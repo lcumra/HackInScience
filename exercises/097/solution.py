@@ -15,7 +15,7 @@ def love_meet(a, b):
     return set(meet)
 
 
-def affair_meet(a, b, c):
+def affair_meet(b, a, c):
     meet = list()
     alen = len(a)
     for i in range(0, alen):
