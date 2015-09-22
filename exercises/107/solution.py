@@ -16,6 +16,6 @@ def select_student(l, tr):
             acc.append(l[i])
         else:
             ref.append(l[i])
-    resu = {'Accepted': sorted(acc, key=itemgetter(1)),
-            'Refused': sorted(ref, key=itemgetter(1), reverse=True)}
+    resu = {'Accepted': sorted(acc, key=itemgetter(1), reverse=True),
+            'Refused': sorted(ref, key=itemgetter(1))}
     return resu
