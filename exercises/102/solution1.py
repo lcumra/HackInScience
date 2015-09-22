@@ -39,15 +39,18 @@ velib = \
       'longitude': 2.412715733388685}]
 
 
-def check_my_city(name):
-    zipCodes = []
+def check_my_city(m):
     count = 0
-    for i in velib:
-        if name + "-" == i['city']:
-            zipCodes.append(i['zip'][:-1])
+    zips = list()
+    for i in range(0, len(velib)):
+        if velib[i]['city'] == m + '-':
             count += 1
-    if count != 0:
-        return {"stations_nb": count, "zip_code": zipCodes,
-                "city": name[:-1].lower()}
+            zips.append(velib[i]['zip'][:-1])
+    if count > 0:
+        resu = {"station_nb": count,
+                "zip code": zips,
+                "city": m.lower()
+                }
     else:
-        return "Sorry! No station for your city has been found!"
+        resu = "Sorry! No station for your city has been found!"
+    return resu
