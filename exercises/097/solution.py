@@ -12,7 +12,7 @@ def love_meet(a, b):
     blen = len(b)
     for i in range(0, alen):
         for j in range(0, blen):
-            if a[i] is b[j]:
+            if a[i] == b[j]:
                 meet.append(a[i])
     return meet
 
@@ -24,8 +24,8 @@ def affair_meet(a, b, c):
     clen = len(c)
     for i in range(0, alen):
         for j in range(0, blen):
-            if a[i] is not b[j]:
+            if a[i] != b[j]:
                 for k in range(0, clen):
-                    if a[i] is c[k]:
+                    if a[i] == c[k]:
                         meet.append(a[i])
     return meet
