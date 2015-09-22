@@ -7,11 +7,11 @@ Created on Mon Sep 21 18:56:59 2015
 
 
 def love_meet(a, b):
-    meet = a.intersect(b)
+    meet = a.intersection(b)
     return meet
 
 
 def affair_meet(b, a, c):
-    meet = a.intersect(c)
+    meet = a.intersection(c)
     unmeet = meet.difference(b)
     return unmeet
