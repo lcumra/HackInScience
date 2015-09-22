@@ -4,6 +4,7 @@ Created on Tue Sep 22 12:24:14 2015
 
 @author: pippo
 """
+from operator import *
 
 
 def select_student(l, tr):
@@ -15,6 +16,6 @@ def select_student(l, tr):
             acc.append(l[i])
         else:
             ref.append(l[i])
-    resu = {'Accepted': acc,
-            'Refused': ref}
+    resu = {'Accepted': sorted(acc, key=itemgetter(1)),
+            'Refused': sorted(ref, key=itemgetter(1), reverse=True)}
     return resu
