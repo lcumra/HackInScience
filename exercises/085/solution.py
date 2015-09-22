@@ -8,7 +8,7 @@ from operator import *
 
 
 def sort_a_list(lista):
-    stampa = sorted(lista, revrese=True)
+    stampa = sorted(lista, reverse=True)
     print(stampa)
     return
 
