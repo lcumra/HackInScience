@@ -46,7 +46,7 @@ velib = \
 def  check_my_city(m):
     count = 0
     zips = list()
-    for i in range(0, len(velib) - 1):
+    for i in range(0, len(velib)):
         if velib[i]['city'] == m:
             count = count + 1
             zips.append(velib[i]['zip'])
