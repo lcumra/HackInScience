@@ -13,8 +13,8 @@ station = {
  'longitude': 2.416170724425901
 }
 
-print('address', station['address'])
-print('number', station['number'])
 print('latitude', station['latitude'])
-print('name', station['name'])
 print('longitude', station['longitude'])
+print('number', station['number'])
+print('name', station['name'])
+print('address', station['address'])
