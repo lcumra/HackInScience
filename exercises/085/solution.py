@@ -14,10 +14,10 @@ def sort_a_list(lista):
 
 
 def sort_by_mark(mycl):
-    print(sorted(mycl, key=itemgetter(1), reverse=True))
+    print(sorted(mycl, key=itemgetter(2), reverse=True))
     return
 
 
 def sort_by_name(mclass):
-    print(sorted(mclass, key=itemgetter(2)))
+    print(sorted(mclass, key=itemgetter(1)))
     return
