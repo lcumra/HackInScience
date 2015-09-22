@@ -6,7 +6,7 @@ Created on Tue Sep 22 16:48:26 2015
 """
 
 
-def is_alpha(al, top):
+def starts_with(al, top):
     allist = list(al)
     toplist = list(top)
     x = True
