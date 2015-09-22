@@ -38,7 +38,7 @@ velib = \
       'longitude': 2.412715733388685}]
 
 
-def  check_my_city(m):
+def check_my_city(m):
     count = 0
     zips = list()
     for i in range(0, len(velib)):
