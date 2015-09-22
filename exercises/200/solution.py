@@ -16,4 +16,6 @@ def is_prime(m):
         x = False
     else:
         x = True
+    if m == 1:
+        x = False
     return x
