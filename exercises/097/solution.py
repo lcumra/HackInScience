@@ -4,9 +4,10 @@ Created on Mon Sep 21 18:56:59 2015
 
 @author: pippo
 """
-meet = list
+
 
 def love_meet(a, b):
+    meet = list()
     alen = len(a)
     blen= len(b)
     for i in range(0, alen):
