@@ -12,7 +12,7 @@ def love_meet(a, b):
     for i in range(0, alen):
         if a[i] in b:
             meet.append(a[i])
-    return meet
+    return set(meet)
 
 
 def affair_meet(a, b, c):
@@ -21,4 +21,4 @@ def affair_meet(a, b, c):
     for i in range(0, alen):
         if a[i] in c and a[i] not in b:
             meet.append(a[i])
-    return meet
+    return set(meet)
