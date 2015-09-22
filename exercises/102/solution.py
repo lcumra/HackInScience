@@ -4,6 +4,7 @@ Created on Mon Sep 21 18:56:59 2015
 
 @author: pippo
 """
+import string
 
 velib = \
     [{'address': ('RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)',
@@ -45,11 +46,11 @@ def check_my_city(m):
     for i in range(0, len(velib)):
         if velib[i]['city'] == n:
             count = count + 1
-            zips.append(velib[i]['zip'])
+            zips.append(velib[i]['zip'][:-1])
     if count > 0:
         resu = {"station_nb": count,
                 "zip code": zips,
-                "city": m
+                "city": m.lower()
                 }
     else:
         resu = "Sorry! No station for your city has been found!"
