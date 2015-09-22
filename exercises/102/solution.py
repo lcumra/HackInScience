@@ -37,6 +37,7 @@ velib = \
       'name': 'DE GAULLE (PANTIN)-',
       'longitude': 2.412715733388685}]
 
+
 def  check_my_city(m):
     count = 0
     zips = list()
@@ -52,5 +53,3 @@ def  check_my_city(m):
     else:
         resu = "Sorry! No station for your city has been found!"
     return resu
-
-
