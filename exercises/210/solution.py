@@ -7,8 +7,8 @@ Created on Tue Sep 22 17:27:14 2015
 import isprime
 a = 0
 
-for i in range (2, 1000):
+for i in range(2, 1000):
     if isprime.is_prime(i):
-        a =+ i
+        a += i
 
-print (a)
+print(a)
