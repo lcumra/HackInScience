@@ -7,18 +7,18 @@ Created on Mon Sep 21 18:56:59 2015
 
 
 def love_meet(a, b):
-    meet = set()
+    meet = list()
     alen = len(a)
     for i in range(0, alen):
         if a[i] in b:
-            meet.add(a[i])
-    return meet
+            meet.append(a[i])
+    return set(meet)
 
 
 def affair_meet(b, a, c):
-    meet = set()
+    meet = list()
     alen = len(a)
     for i in range(0, alen):
         if a[i] in c and a[i] not in b:
-            meet.add(a[i])
-    return meet
+            meet.append(a[i])
+    return set(meet)
