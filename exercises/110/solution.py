@@ -28,7 +28,6 @@ if len(sys.argv) == 4:
             print(d)
         else:
             print('input error')
-        #break
     except:
         print("input error")
 else:
