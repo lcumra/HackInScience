@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Wed Sep 23 10:24:54 2015
 
-This is a temporary script file.
+@author: pippo
 """
 
-print(100000007)
+print('10007, 10009, 10037, 10039')
