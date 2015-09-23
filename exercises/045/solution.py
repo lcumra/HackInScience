@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Tue Sep 22 15:01:32 2015
 
-This is a temporary script file.
+@author: simonfredon
 """
 
 
 def sqrt(num):
-    print(num ** (0.5))   
+    return num ** 0.5
