@@ -11,5 +11,5 @@ try:
     r = requests.get('http://mdk.fr/ip')
     testo = r.text.split('\n')
     print(testo[0])
-except ConnectionError as conny:
+except:
     print('No internet connectivity.')
