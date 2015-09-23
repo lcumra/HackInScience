@@ -1,21 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 22 15:34:44 2015
+Created on Wed Sep 23 10:31:30 2015
 
-@author: pippo
+@author: simonfredon
 """
 
 
-def is_prime(m):
-    check = 0
-    x = True
-    for i in range(2, m - 1):
-        if m % i == 0:
-            check += 1
-    if check > 0:
-        x = False
-    else:
-        x = True
-    if m == 1:
-        x = False
-    return x
+def is_prime(num):
+    if num == 1:
+        return False
+    n = num ** 0.5
+    for i in list(range(2, (int(n) + 1))):
+        if num % i == 0:
+            return False
+    return True
