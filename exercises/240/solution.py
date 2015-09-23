@@ -6,9 +6,8 @@ Created on Wed Sep 23 10:06:16 2015
 """
 """
 lisi = [0] * 10
-print(lisi)
 a = 1
-lisi[1] = 1
+lisi[1] = 2
 lisi[0] = 1
 for i in range(2, 10):
     lisi[i] = lisi[i-1] + lisi[i-2]
@@ -16,4 +15,4 @@ for i in range(2, 10):
 print(str(lisi)[:-1][1:] + '.')
 """
 
-print('1, 1, 2, 3, 5, 8, 13, 21, 34, 55.')
+print('1, 2, 3, 5, 8, 13, 21, 34, 55, 89.')
