@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Wed Sep 23 09:44:37 2015
 
-This is a temporary script file.
+@author: pippo
 """
-
 
