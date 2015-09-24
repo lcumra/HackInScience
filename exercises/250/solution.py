@@ -5,11 +5,10 @@ Created on Thu Sep 24 14:00:35 2015
 @author: pippo
 """
 
-li1 = []
-li2 = []
-
 
 def draw_n_squares(n):
+    li1 = []
+    li2 = []
     carre1 = ('+---+')
     carre2 = ('|   |')
     for i in range(0, n):
