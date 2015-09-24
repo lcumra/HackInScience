@@ -8,6 +8,8 @@ import string
 import checker
 al = list(string.ascii_lowercase)
 AL = list(string.ascii_uppercase)
+forward = "forward"
+backward = "backward"
 
 
 def caesar_cypher(s, k, m):
