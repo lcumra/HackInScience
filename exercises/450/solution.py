@@ -22,5 +22,5 @@ def caesar_cypher(s, k, m):
                 code[i] = (code[i] + k) % 26
                 resu[i] = al[code[i]]
         else:
-            resu[i] = ori [i]
+            resu[i] = ori[i]
     return ''.join(resu)
