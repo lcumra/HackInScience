@@ -24,14 +24,14 @@ def caesar_cypher(s, k, m):
                     code[i] = (code[i] - k) % 26
                 if m == "forward":
                     code[i] = (code[i] + k) % 26
-                    resu[i] = al[code[i]]
+                resu[i] = al[code[i]]
             if checker.numa(ori[i]) % 1 == 0.5:
                 code[i] = int(checker.numa(ori[i]) - 0.5)
                 if m == "backward":
                     code[i] = (code[i] - k) % 26
                 if m == "forward":
                     code[i] = (code[i] + k) % 26
-                    resu[i] = AL[code[i]]
+                resu[i] = AL[code[i]]
         else:
             resu[i] = ori[i]
     return ''.join(resu)
