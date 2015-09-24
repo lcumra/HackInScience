@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Sep 23 15:42:02 2015
+Created on Thu Sep 24 10:24:15 2015
 
 @author: pippo
 """
 
+import sys
 
-def mul(x):
-    a = 1
-    for i in x:
-        a = a * i
-    return a
+try:
+    print(sys.argv[1])
+except:
+    print("Not enough parameters.")
