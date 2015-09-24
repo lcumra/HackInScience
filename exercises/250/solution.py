@@ -20,5 +20,5 @@ def draw_n_squares(n):
     ciaone = []
     for i in range(0, n):
         ciaone.append(ciao)
-        ciaone.append(l1 + '+\n')
+    ciaone.append(l1 + '+\n')
     return ''.join(ciaone)
