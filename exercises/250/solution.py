@@ -8,6 +8,7 @@ Created on Thu Sep 24 14:00:35 2015
 li1 = []
 li2 = []
 
+
 def draw_n_squares(n):
     carre1 = ('+---+')
     carre2 = ('|   |')
