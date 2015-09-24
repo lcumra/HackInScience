@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 22 17:33:37 2015
+Created on Wed Sep 23 15:50:28 2015
 
-@author: pippo
+@author: simonfredon
 """
 
+for i in [222288, 222303, 222304, 222319, 222327, 222331, 222333,
+          222334, 222337, 222338, 222340, 222344, 222352, 222367, 222368]:
+    print(i)
