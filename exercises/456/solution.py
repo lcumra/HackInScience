@@ -11,11 +11,14 @@ from master_mind import *
 
 colors = ""
 code = ""
+lungo = 0
 
 def gen_colors(x):
     if x in range(0, 26):
+        lungo = x
         return alpha[:x]
     else:
+        lungo = 26
         return alpha
 
 
@@ -33,5 +36,10 @@ def solve_mind(x, y):
             return (a, j)
         else:
             culo = master_mind.score_guess(a, code)
-            
+            aaa = list(a)
+            giusti = itertools.permutations(range(0, lungo), )
         return
+
+
+def solve_mind(x, y):
+    return (x, 2)

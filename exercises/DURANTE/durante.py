@@ -11,3 +11,5 @@ location = geo.reverse("40.851775, 25.268124")
 print(location.address)
 #Nominatim.reverse()
 
+for i in len()
+
