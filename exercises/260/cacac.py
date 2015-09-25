@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 25 17:43:55 2015
+Created on Thu Sep 24 17:27:03 2015
 
 @author: pippo
 """
-
 import math
 import numpy as nu
 
